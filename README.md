@@ -53,6 +53,8 @@ The bundled data is a **small subset** of the full benchmarks:
 
 The full KITTI and 4Seasons datasets are much larger and are not included in this repository. The included subset is sufficient to reproduce the numbers in `lightglue_results.json`.
 
+Since the included subset is small, **you may observe lower metric values than those reported**; to reproduce the exact numbers, download the full datasets and run the script against them.
+
 ## Device / GPU
 
 The evaluation script **auto-detects** the available device: it runs on **GPU** when CUDA is available and falls back to **CPU** otherwise.
